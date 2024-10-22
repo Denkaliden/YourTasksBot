@@ -2,7 +2,7 @@ import telebot
 import time
 import threading
 #Ну это токен
-token = '7805442119:AAHT3Wuq_aIgRwe7_LqQ-WCzkf2Bad9-zgQ'
+token = 'Токен'
 bot = telebot.TeleBot(token)
 user_tasks = {}
 #Команда старт, тоже самое что и хелп.
