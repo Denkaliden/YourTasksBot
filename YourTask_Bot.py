@@ -122,6 +122,6 @@ def easter_egg(message):
     '''
     bot.reply_to(message, pashalka)
 @bot.message_handler(func=lambda message: True)
-def handle_unrecognized_message(message):
+def incorrect_message(message):
     bot.reply_to(message, "Пожалуйста, используйте /help для получения списка команд.")
 bot.polling()
