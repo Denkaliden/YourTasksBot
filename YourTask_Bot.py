@@ -105,7 +105,6 @@ def set_timer(message):
             bot.reply_to(message, 'Неверный номер задачи.')
     except (ValueError, IndexError):
         bot.reply_to(message, 'Используйте команду в формате:*/set_timer номер_задачи время_в_минутах*')
-#Душа бота
 @bot.message_handler(commands=['easter_egg'])
 def easter_egg(message):
     pashalka = '''
@@ -129,3 +128,4 @@ def easter_egg(message):
 def incorrect_message(message):
     bot.reply_to(message, "Пожалуйста, используйте /help для получения списка команд.")
 bot.polling()
+
